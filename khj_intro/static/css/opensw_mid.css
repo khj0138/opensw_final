@@ -1,0 +1,129 @@
+header {
+    top: 0;
+    width: 100%;
+}
+html {
+    min-width: 1200px;
+}
+body div {
+    display: block;
+}
+body {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: MalgunGothic;
+    background: #F0F4F6;
+}
+a {
+    text-decoration: none; color: inherit;
+}
+.bar {
+    background-color: #36454F;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 1000px;
+    height: 125px;
+}
+
+.menu a {
+    font-size: 18px;
+    color: #e6f5fa;
+    margin: 10px;
+}
+.menu a:hover {
+    background-color: #70d0f0;
+    border-radius: 5px;
+}
+.menu {
+    flex: 3;
+    text-align: center;
+}
+.title {
+    flex: 6px;
+    font-size: 15px;
+    color: #e6f5fa;
+    text-align: center;
+}
+.home {
+    flex: 3;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e6f5fa;
+    text-align: center;
+    padding-left: 20px;
+}
+.home a:hover {
+    background-color: #70d0f0;
+    border-radius: 5px;
+}
+.home_document {
+    font-size: 18px;
+    text-align: center;
+}
+.board{
+    background-color: #c8dce6;
+    margin: 10%;
+    padding: 50px;
+    border-radius: 10px;
+}
+.board { min-width: 800px; }
+.board ul { padding: 0;}
+.board ul li {font-size: 18px}
+.face{
+    text-align: center;
+}
+.center_image{
+    text-align: center;
+}
+.estj{
+    color : #007080;
+    font-weight: bold;
+}
+.embed-container {
+    position: relative;
+     padding-bottom: 56.25%;
+     height: 0;
+     overflow: hidden;
+     max-width: 100%;
+ }
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    font-size: 1em;
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: #F0F4F6;
+    border-radius: 10px;
+    min-width: 600px;
+    width: 80%;
+    margin: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+    position: relative;
+    font-weight: bold;
+}
+table thead tr th{
+    color: #e6f5fa;
+    height: 50px;
+    background: #36454F;
+}
+table td, table th {
+    text-align: center;
+}
+table tbody tr {
+    height: 50px;
+    font-size: 15px;
+    color: #303030;
+}
+table tbody tr:nth-child(even) {
+    background-color: #e6f0fa;
+}
